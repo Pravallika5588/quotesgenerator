@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="quotes.js">
+    <style>
+           * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  
+  .quote-container {
+    background-color:wheat;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    height: 330px;
+  }
+  
+  
+  #quote {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  #quote1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+
+  .buttons button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: blue;
+  }
+  
+  #twitter-btn {
+    
+    width: 600px;
+          height: 50px;
+          border: 1px solid black;
+          border-radius: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+    
+
+  }
+  
+  
+  #twitter-btn:hover {
+    background-color: paleturquoise;
+  }
+  #speak-btn:hover {
+    background-color: paleturquoise;
+  }
+  #copy-btn:hover {
+    background-color: paleturquoise;
+  }
+  #speak-btn{
+    width: 600px;
+          height: 50px;
+          border: 1px solid black;
+          border-radius: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+  }
+  #copy-btn{
+    width: 600px;
+          height: 50px;
+          border: 1px solid black;
+          border-radius: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          gap: 5px;
+  }
+  .icons{
+    display: flex;
+    gap: 200px;
+  }
+ .random:hover{
+  color:orange;
+ }
+
+  
+        
+          </style>
+</head>
+<body>
+  
+  
+ 
+
+
+  <div class="quote-container">
+    <h1 class="random">Random quote</h1><br><br>
+    <p id="quote">Click the button to get a new quote!</p>
+   
+    <div class="buttons">
+      <button id="new-quote-btn">New Quote</button><br><br><br>
+      <div class="icons">
+      <h6 id="speak-btn"> <i class="fa-solid fa-volume-up"></i> Speak</h6>
+      <h6 id="copy-btn"><i class="fa-solid fa-copy"></i> Copy</h6>
+      <h6 id="twitter-btn"><i class="fa-brands fa-twitter"></i> Tweet</h6>
+    </div>
+    </div>
+  </div>
+  <script src="quotes.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
